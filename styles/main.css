@@ -1,0 +1,40 @@
+main{
+  width: 1040px;
+  margin: 120px auto;
+
+  text-align: center;
+}
+
+section{
+  margin-top: 127px;
+}
+
+.projects-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 56px;
+  gap: 24px;
+}
+
+.project{
+  width: 330px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  background-color: var(--gray-300);
+  border-radius: 12px;
+  gap: 8px;
+  text-align: start;
+
+  img{
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  span{
+    font: var(--title-sm);
+  }
+  p{
+    font: var(--text-sm);
+  }
+}
