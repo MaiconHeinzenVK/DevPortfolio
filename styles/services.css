@@ -1,0 +1,35 @@
+.services{
+  width: 100%;
+  padding: 88px 0 120px;
+  background-color: var(--gray-100);
+}
+
+.services-container{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 56px;
+}
+
+.service{
+  width: 280px;
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  padding-left: 20px;
+  border: 2px solid var(--gray-200);
+  border-radius: 12px;
+  text-align: start;
+
+  img{
+    width: 48px;
+  }
+  span{
+    font: var(--title-sm);
+  }
+  p{
+    font: var(--text-sm);
+  }
+}

@@ -1,12 +1,7 @@
-main{
-  width: 1040px;
-  margin: 120px auto;
-
-  text-align: center;
-}
-
 section{
   margin-top: 127px;
+  width: 1040px;
+  margin: 120px auto;
 }
 
 .projects-container{
